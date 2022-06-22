@@ -2,7 +2,7 @@ const { Telegraf } = require("telegraf");
 require("dotenv").config();
 
 const bot = new Telegraf(process.env.BOT_TOKEN)
-const web_link = "https://dancing-kulfi-85047d.netlify.app/";
+const web_link = "https://google.com";
 
 bot.start((ctx) =>
   ctx.reply("Welcome to the Test Fast Food.", {
