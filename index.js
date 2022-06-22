@@ -2,7 +2,7 @@ const { Telegraf } = require("telegraf");
 require("dotenv").config();
 
 const bot = new Telegraf(process.env.BOT_TOKEN)
-const web_link = "https://parimatch.com/";
+const web_link = "https://rozetka.com.ua/";
 
 bot.start((ctx) =>
   ctx.reply("Welcome to the Test Fast Food.", {
