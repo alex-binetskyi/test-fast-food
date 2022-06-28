@@ -5,9 +5,9 @@ const bot = new Telegraf(process.env.BOT_TOKEN)
 const web_link = "https://superb-jalebi-92521b.netlify.app/";
 
 bot.start((ctx) =>
-  ctx.reply("Welcome to the Test Fast Food.", {
+  ctx.reply("Welcome to the Fast Food.", {
     reply_markup: {
-      keyboard: [[{ text: "Test Fast Food", web_app: { url: web_link } }]],
+      keyboard: [[{ text: "Fast Food", web_app: { url: web_link } }]],
     },
   })
 );
